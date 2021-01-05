@@ -1,0 +1,12 @@
+.sponsors__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.sponsors__item {
+    width: 20%;
+    list-style: none;
+}

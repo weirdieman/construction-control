@@ -1,0 +1,11 @@
+:root {
+    --color-black: #212B31;
+    --color-lightblack: rgb(110, 108, 108);
+    --color-sand: rgb(214, 156, 31);
+    --color-blue: rgb(26, 147, 228);
+    --color-lblue: rgb(142, 204, 212);
+    --color-white: white;
+    --color-lightmint: rgb(215, 245, 255);
+    --color-darkblack: black;
+    --color-dirtywhite: rgb(245, 245, 245);
+}

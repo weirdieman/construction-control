@@ -1,0 +1,12 @@
+.info__content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1015px;
+}
+.info__text {
+    margin: 16px 0 40px;
+}
+.info__image {
+    max-width: 100%;
+    margin-bottom: 144px;
+}

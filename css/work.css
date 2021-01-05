@@ -1,0 +1,36 @@
+.work {
+    padding-top: 144px;
+    padding-bottom: 96px;
+}
+.work__text {
+    margin: 20px 74px 60px 0;
+}
+.work__item {
+    display: flex;
+}
+.work__item span {
+    padding: 10px 16px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid var(--color-lightblack);
+    color: var(--color-sand);
+    margin-right: 32px;
+}
+.work__info h3 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: var(--color-darkblack);
+    margin-bottom: 10px;
+}
+.work__info p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-black);
+    margin-bottom: 30px;
+}
+.work__btn {
+    margin-right: 16px;
+}

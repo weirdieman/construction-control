@@ -1,0 +1,17 @@
+.order {
+    background: url(../images/orderimg.png) center no-repeat;
+    align-items: center;
+    text-align: center;
+}
+.order__text {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--color-darkblack);
+    padding-top: 117px;
+    margin: 0 38px 54px 38px;
+}
+.order__btn {
+    margin-right: 16px;
+    margin-bottom: 117px;
+}

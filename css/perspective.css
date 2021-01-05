@@ -1,0 +1,50 @@
+.perspective {
+   padding-bottom: 70px; 
+}
+.perspective__content {
+    position: relative;
+    max-width: 1006px;
+    margin-bottom: 128px;
+}
+.perspective__title {
+    margin:0 189px 168px 190px;
+    width: 781px;
+    text-align: center;
+}
+.perspective__title--2 {
+    left: 0;
+    margin-right: 53px;
+    width: 489px;
+}
+.perspective__info {
+   left: 0;
+   margin: 16px 0 28px;
+   width: 542px;
+}
+.perspective__text {
+   width: 250px;
+}
+.perspective__image {
+    position: absolute;
+    left: 600px;
+    top: 0;
+}
+.perspective__link {
+    position: relative;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-black);
+    text-decoration: none;
+}
+.perspective__link::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    bottom: 0;
+    z-index: -1;
+    height: 50%;
+    width: 100%;
+    background-color: var(--color-sand);
+    transition: 0.3s;
+}

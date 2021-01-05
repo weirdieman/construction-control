@@ -1,0 +1,67 @@
+.safet {
+    max-width: 1056px;
+    margin: auto;
+}
+.safety__header , .safety__body {
+    text-align: center;
+}
+.safety__title {
+    margin-bottom: 17px;
+    position: relative;
+    display: inline-block;
+}
+.safety__title::after {
+    content: '';
+    right: -15%;
+    top: -40%;
+    background: url(../images/leafe.svg);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.safety__body {
+    margin-top: 61px;
+    margin-bottom: 111px;
+}
+.safety__subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-black);
+    margin-top: 19px;
+    margin-bottom: 11px;
+}
+.safety__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-lightblack);
+}
+.safety__text-2 {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-lightblack);
+}
+.safety__footer {
+    display: flex;
+    background-color: var(--color-lightmint);
+    margin-bottom: 144px;
+    min-height: 130px;
+    align-items: center;
+    text-align: center;
+    padding-left: 42.17px;
+    padding-right: 40px;
+}
+.footer__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--color-darkblack);
+    margin: 0 66px 0 26.17px;
+}
+.safety__btn {
+    height: 50px;
+}

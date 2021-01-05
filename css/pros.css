@@ -1,0 +1,113 @@
+.pros {
+    padding-bottom: 149px;
+}
+.pros__header {
+    text-align: center;
+    margin-bottom: 55px;
+}
+.pros__item {
+    display: flex;
+}
+.pros__item img {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+}
+.slider__wrapper {
+    background-color: var(--color-lightmint);
+    border-radius: 5px;
+    padding: 60px 87px 92px 87px;
+    margin-right: -92px;
+    margin-left: 80px;
+    position: relative;
+}
+.slider__item {
+    outline: none;
+}
+.slider__item p {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+    color: var(--color-black);
+    margin-bottom: 32px;
+}
+.slider__wrapper::before {
+    position: absolute;
+    content: '';
+    background: url(../images/Vector.svg) no-repeat;
+    left: 42px;
+    right: 0;
+    top: 46px;
+    bottom: 0;
+}
+.slider__info {
+    display: flex;
+}
+.slider__info img {
+    margin-right: 8px;
+    width: 48px;
+    height: 48px;
+}
+.slider__name {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-black);
+}
+.slider__position {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-lightblack);
+}
+.pros .slick-dots {
+    padding-top: 28px;
+    list-style: none;
+    display: flex;
+    position: absolute;
+}
+.pros .slick-dots button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-lblue);
+    border-radius: 50%;
+    margin-right: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.pros .slick-dots .slick-active button {
+    background-color: var(--color-blue);
+}
+.pros__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 127px;
+}
+.pros__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 41px;
+}
+.pros__img {
+    list-style: none;
+    width: 20%;
+}
+.pros__img:nth-child(2) {
+    margin: 0 101px 0 119px;
+}
+.pros__info {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-lightblack);
+    margin-top: 32px;
+}
+.pros__info:nth-child(2) {
+    margin-top: 44px;
+}
