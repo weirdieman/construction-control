@@ -80,3 +80,18 @@
     background-color: var(--color-sand);
     transition: 0.3s;
 }
+
+@media screen and (max-width: 576px) {
+    .btn-sand , .btn-white {
+        font-size: 14px
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+}

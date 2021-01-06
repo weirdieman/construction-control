@@ -37,3 +37,9 @@
     text-align: center;
     padding: 22px 0 143px;
 }
+
+@media screen and (max-width: 576px) {
+    .delivery__item {
+        text-align: center;
+    }
+}
