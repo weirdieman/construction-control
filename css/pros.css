@@ -129,4 +129,8 @@
     .pros__info:nth-child(2) {
         margin-bottom: 60px;
     }
+    .slider__wrapper {
+        margin: 0;
+        padding: 60px 20px 92px 20px;
+    }
 }
