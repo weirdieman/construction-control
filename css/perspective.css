@@ -48,3 +48,16 @@
     background-color: var(--color-sand);
     transition: 0.3s;
 }
+
+@media screen and (max-width: 576px) {
+    .perspective__title {
+        width: auto;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .perspective__title--2 , .perspective__info {
+        width: auto;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}

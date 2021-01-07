@@ -42,4 +42,13 @@
     .delivery__item {
         text-align: center;
     }
+    .delivery__icon {
+        margin: auto;
+    }
+    .delivery__title {
+        margin-top: 50px;
+    }
+    .delivery__text {
+        padding: 0 10px 0 10px;
+    }
 }
