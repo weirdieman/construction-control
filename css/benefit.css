@@ -2,7 +2,6 @@
     background-color: var(--color-lightblack);
     padding-top: 143px;
     position: relative;
-    min-width: 1440px;
 }
 .relative {
     position: relative;
@@ -40,7 +39,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    left: 609px;
+    left: 650px;
     width: 550px;
     height: 480px;
 }

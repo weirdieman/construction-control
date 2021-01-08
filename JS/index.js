@@ -6,6 +6,6 @@ arrows: false,
 let system = document.querySelector('.burger__menu');
 
 system.addEventListener('click', function () {
- system.classList.add("is-active"),
+ system.classList.toggle("is-active")
 })
 console.log(system);
