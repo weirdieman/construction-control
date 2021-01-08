@@ -61,8 +61,8 @@
 
 .burger__menu {
     position: fixed;
-    right: 5%;
-    top: 2%;
+    right: 50%;
+    top: 10%;
     display: none;
     align-items: center;
     justify-content: center;
