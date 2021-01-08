@@ -71,4 +71,11 @@
     .benefit__img {
         display: none;
     }
+    .benefit__header {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .benefit__text-2 {
+        margin: 0;
+    }
 }

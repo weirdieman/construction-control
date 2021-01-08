@@ -9,7 +9,7 @@
 .footer__logo {
     width: 22px;
 }
-.footer__text {
+.mainfooter__text {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -17,7 +17,7 @@
     color: var(--color-darkblack);
     margin-left: 8px;
 }
-.footer__text:hover {
+.mainfooter__text:hover {
     color: var(--color-sand);
 }
 .footer__location {
@@ -88,5 +88,21 @@
     color: var(--color-blue);
 }
 
-
+@media screen and (max-width: 576px) {
+    .mainfooter__text {
+        font-size: 20px;
+    }
+    .footer__location {
+        font-size: 20px;
+    }
+    .footer__info {
+        font-size: 18px;
+    }
+    .footer__information {
+        margin: 50px 0;
+    }
+    .footer__endtext {
+        margin: 0;
+    }
+}
 

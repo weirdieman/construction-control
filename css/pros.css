@@ -120,11 +120,14 @@
         width: auto;
     }
     .pros__images {
-        margin-left: 60px;
+        margin-left: 70px;
     }
     .pros__images-2 {
-        text-align: center;
+        margin-left: 60px;
         margin-top: 40px;
+    }
+    .pros__img:nth-child(2) {
+        margin: 0;
     }
     .pros__info:nth-child(2) {
         margin-bottom: 60px;
