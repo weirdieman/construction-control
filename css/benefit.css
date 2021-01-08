@@ -67,3 +67,9 @@
     line-height: 24px;
     color: var(--color-dirtywhite);
 }
+
+@media screen and (max-width: 576px) {
+    .benefit__img {
+        display: none;
+    }
+}

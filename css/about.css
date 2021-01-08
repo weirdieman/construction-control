@@ -27,3 +27,12 @@
     color: var(--color-lightblack);
     margin: 19px 91px 130px 0;
 }
+
+@media screen and (max-width: 576px) {
+    .about__item {
+        text-align: center;
+    }
+    .about__text {
+        margin: 10px 0;
+    }
+}

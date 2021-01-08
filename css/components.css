@@ -91,6 +91,9 @@
     .col-4 {
         width: 100%;
     }
+    .col-7 {
+        width: 100%;
+    }
     .row {
         flex-wrap: wrap;
     }

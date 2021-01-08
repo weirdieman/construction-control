@@ -12,6 +12,9 @@
 }
 
 @media screen and (max-width: 576px) {
+    .sponsors {
+        margin-top: -50px;
+    }
     .sponsors__item {
         width: 100%;
         text-align: center;

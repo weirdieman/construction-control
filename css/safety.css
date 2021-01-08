@@ -84,4 +84,10 @@
     .footer__text {
         margin: 20px 0;
     }
+    .safety__icon {
+        margin-top: 30px;
+    }
+    .safety__btn {
+        margin-bottom: 30px;
+    }
 }

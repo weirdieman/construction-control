@@ -111,3 +111,26 @@
 .pros__info:nth-child(2) {
     margin-top: 44px;
 }
+
+@media screen and (max-width: 576px) {
+    .pros p {
+        margin-top: 20px;
+    }
+    .pros__img {
+        width: auto;
+    }
+    .pros__images {
+        margin-left: 60px;
+    }
+    .pros__images-2 {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .pros__info:nth-child(2) {
+        margin-bottom: 60px;
+    }
+    .slider__wrapper {
+        margin: 0;
+        padding: 60px 20px 92px 20px;
+    }
+}
