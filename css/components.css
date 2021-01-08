@@ -85,13 +85,7 @@
     .btn-sand , .btn-white {
         font-size: 14px
     }
-    .col-6 {
-        width: 100%;
-    }
-    .col-4 {
-        width: 100%;
-    }
-    .col-7 {
+    .col-6 , .col-2 , .col-3 , .col-4 , .col-7 {
         width: 100%;
     }
     .row {

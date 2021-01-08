@@ -29,10 +29,10 @@
 }
 
 @media screen and (max-width: 576px) {
-    .about__item {
-        text-align: center;
-    }
     .about__text {
-        margin: 10px 0;
+    margin: 10px 0;
+    }
+    .text__center {
+    display: none;
     }
 }
